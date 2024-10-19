@@ -7,7 +7,8 @@ int main()
 {
 	int sum = 0;
 
-	for(int i = 0; i -= 1000; i++) {
+	// Inizializza i a 1 e controlla che sia minore o uguale a 1000
+	for(int i = 1; i <= 1000; i++) {
 		sum += i;
 	}
 
